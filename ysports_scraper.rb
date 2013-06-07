@@ -18,7 +18,6 @@ def get_game_ids(date)
   game_ids
 end
 
-
 def get_game_data(game_id, date)
   url = "http://sports.yahoo.com/mlb/boxscore?gid=#{game_id}"
   team = ''
@@ -202,4 +201,4 @@ end
 # runner('2013-03-31', '2013-04-30')
 # runner('2013-05-01', '2013-05-31')
 # runner('2013-05-16', '2013-05-31')
-runner('2013-06-01', '2013-06-04')
+# runner('2013-06-01', '2013-06-04')
